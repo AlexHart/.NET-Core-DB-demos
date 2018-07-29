@@ -8,7 +8,7 @@ type AccountInfo(name: string, phone_office: string) =
     member this.Name = name
     member this.PhoneOffice = phone_office
 
-/// Needed until F# 7 includes anonymous records.
+/// Needed until F# includes anonymous records.
 /// https://github.com/fsharp/fslang-design/blob/master/RFCs/FS-1030-anonymous-records.md
 type QueryParams = { deleted: int }
 
