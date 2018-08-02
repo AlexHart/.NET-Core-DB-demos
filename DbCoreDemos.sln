@@ -7,6 +7,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DbCoreDemos.DapperFSharpMyS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbCoreDemos.EFCSharpMySql", "DbCoreDemos.EFCSharp\DbCoreDemos.EFCSharpMySql.csproj", "{76699798-852B-449A-A3AD-4D9A9BB7D584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCoreDemos.EFCSharpInMemory", "DbCoreDemos.EFCSharpInMemory\DbCoreDemos.EFCSharpInMemory.csproj", "{C694D00D-8750-485E-B3BA-10D8F63B082B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{76699798-852B-449A-A3AD-4D9A9BB7D584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76699798-852B-449A-A3AD-4D9A9BB7D584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76699798-852B-449A-A3AD-4D9A9BB7D584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C694D00D-8750-485E-B3BA-10D8F63B082B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C694D00D-8750-485E-B3BA-10D8F63B082B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C694D00D-8750-485E-B3BA-10D8F63B082B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C694D00D-8750-485E-B3BA-10D8F63B082B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
