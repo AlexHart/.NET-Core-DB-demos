@@ -15,8 +15,7 @@ let main =
 
         // Do the query almost old school style.
         let sql = "SELECT name, phone_office FROM accounts WHERE deleted = @deleted ORDER BY name"   
-        let queryParams = {| deleted = 0 |}
-        let accounts = conn.Query<AccountInfo>(sql, queryParams)
+        let accounts = conn.Query<AccountInfo>(sql, {| deleted = 0 |})
 
         // Print all the accounts found on the db.
         accounts
